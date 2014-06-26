@@ -15,7 +15,7 @@ import sys
 
 def main(q, page):
     """
-        Main loop. Grab links from Stack Overflow, display to user as a menu."
+        Main loop. Grab links from Stack Overflow, display to user as a menu.
     """
     links = get_links(q, page)
     show_menu(links)
